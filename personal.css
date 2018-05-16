@@ -1,0 +1,111 @@
+.navbar {
+  font-size: 1.4em !important;
+}
+.navbar-brand {
+ float: left;
+ padding:0 15px;
+ font-family: "Open Sans";
+ font-weight: 800;
+ color: white !important;
+}
+.navbar-nav .active a,
+.navbar-nav .active a:focus,
+.navbar-nav .active a:hover{
+  text-decoration: none !important;
+}
+.navbar-nav li a {
+color: black;
+font-family: "Open Sans";
+text-transform:uppercase;
+font-size: 16px;
+}
+#intro {
+background: url("./assets/landing.jpg") no-repeat top center;
+height:987px;
+background-size: cover;
+}
+.intro-caption {
+  position: absolute;
+  transform: translateY(-50%);
+  text-align:center;
+  width:100%;
+  top:50%;
+  font-family: "Open Sans";
+}
+.intro-caption h4 {
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+}
+.intro-caption h1 {
+  font-weight: 800;
+  color: #52b3d9;
+  margin-bottom:20px;
+  font-size: 60px;
+}
+.intro-description {
+  color: white;
+  margin: 0% 5%;
+}
+
+.social-icons a i {
+  position: relative;
+  color: white;
+  font-size: 30px;
+  margin: 10% 20px;
+}
+
+
+@keyframes drop {
+    0%   { top:5px;  opacity: 0;}
+    30%  { top:10px; opacity: 1;}
+    100% { top:25px; opacity: 0;}
+}
+@media (min-width: 992px) {
+  .intro-caption .intro-description {
+    width: 45%;
+    margin: 0% auto;
+  }
+  .mouse {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  height: 50px;
+  width: 30px;
+  margin-left: -17px;
+  display: block;
+  z-index: 10;
+  }
+  .mouse .wheel {
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+  width: 4px;
+  height: 10px;
+  top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .mouse .wheel {
+  -webkit-animation-name: drop;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  animation-name: drop;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  }
+
+  @-webkit-keyframes drop {
+      0%   { top:5px;  opacity: 0;}
+      30%  { top:10px; opacity: 1;}
+      100% { top:25px; opacity: 0;}
+  }
+}

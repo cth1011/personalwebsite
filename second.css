@@ -1,0 +1,12 @@
+section h2 {
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 36px;
+  margin: 5%;
+}
+
+section i {
+  margin: 0 1%;
+  font-size: 2.6rem;
+}
