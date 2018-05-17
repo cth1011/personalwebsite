@@ -9,26 +9,29 @@
   <!-- theme info -->
   <meta name="description" content="This is web page used to demo functionality of the D3.js library. It is released under CC-4.0 license.">
   <meta name="keywords" content="data visualization, d3, javascript, udacity">
+  <link rel="shortcut icon" href="./assets/logo.png">
   <!-- site title -->
-  <title>I am Chris Herrera</title>
+  <title>Chris Herrera</title>
   <link href="./personal.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/lib/parallax.js"></script>
   <link rel="stylesheet" href="./lib/bootstrap.min.css">
   <link rel="stylesheet" href="./second.css">
-   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
 
 <body>
 
-<section class="text-center" id="intro">
+<section class="text-center parallax-window" data-parallax="scroll" data-image-src="/assets/landing.jpg" id="intro">
   <div class="intro-caption">
     <h4>I AM CHRIS HERRERA</h4>
     <h1>ASPIRING <span style="color:#68c3a3;">DATA SCIENTIST</span></h1>
     <div class="intro-description">
-      I am a fully professional freelance creative User Interface Designer & Developer Involving with latest web designing and technologies is a great feel free to contact creative.
+      I am a fully professional freelance creative Graphic Designer & Developer. I am currently delving into the field of data science learning all the necessary skills such as Data Visualization, Machine Learning, and Data Engineering.
     </div> <!--- End of Intro Description--->
     <br>
     <div class="social-icons">
@@ -36,6 +39,7 @@
         <li class="list-inline-item"><a href="https://www.facebook.com/christopher.herrera.144"><i class="fab fa-facebook-f"></i></a></li>
         <li class="list-inline-item"><a href="https://www.linkedin.com/in/christopher-herrera-6762a9bb/"><i class="fab fa-linkedin-in"></i></a></li>
         <li class="list-inline-item"><a href="https://github.com/cth1011"><i class="fab fa-github"></i></a></li>
+        <li class="list-inline-item"><a href="https://www.youtube.com/user/tayk20/videos?shelf_id=0&view_as=subscriber&sort=dd&view=0"><i class="fab fa-youtube"></i></a></li>
       </ul>
     </div> <!---End of Social Icons--->
 
@@ -64,9 +68,120 @@
   </div>
 </nav>
 
-<section>
-  <h2 class="text-center"><i class="fas fa-user-tie"></i>About Me</h2>
-  <div class="">
+<section >
+
+  <div class="container" id="aboutme">
+    <h2 class="text-center" id="aboutme-text"><i class="fas fa-user-tie"></i>About Me</h2>
+    <div class="row">
+      <div class="col ">
+        <h3>Who am I?</h3>
+        <p>I'm Christopher Herrera. I'm a freelance graphic designer and developer specializing in Photoshop, After Effects, Python and Premiere Pro. I'm the type of person, who loves to learn new things especially if it adds value to others. I'm a regular Toastmaster member at Maharlika Toastmasters Club giving talks about interesting books. Some of my strong skills are... </p>
+
+        <div class="row">
+          <ul>
+            <li><i class="fas fa-check"></i> Visual Design</li>
+            <li><i class="fas fa-check"></i> UX Design</li>
+            <li><i class="fas fa-check"></i> Python</li>
+          </ul>
+          <ul>
+            <li><i class="fas fa-check"></i> Video Editing</li>
+            <li><i class="fas fa-check"></i> Public Speaking</li>
+            <li><i class="fas fa-check"></i> Website Design</li>
+          </ul>
+        </div>
+        <div class="download-button">
+          <a class="btn btn-info btn-lg" href="https://www.linkedin.com/in/christopher-herrera-6762a9bb/"><i class="fas fa-file-alt"></i> View my CV</a>
+          <a class="btn btn-primary btn-lg bg-success" href="https://www.behance.net/cth091027fa"><i class="fas fa-eye"></i> View my Portfolio</a>
+        </div>
+
+    </div>
+    <div class="col">
+      <img src="./assets/toastmasters.jpg" class="rounded img-fluid">
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+
+  <div class="container">
+    <h2 class="text-center"><i class="fas fa-trophy"></i>Skills</h2>
+    <div class="row">
+      <div class="col">
+        <small>Visual Design <span>95%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:95%;">
+          </div>
+        </div>
+        <small>Adobe Photoshop <span>95%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:95%;">
+          </div>
+        </div>
+        <small>Python <span>85%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%">
+          </div>
+        </div>
+        <small>Data Visualization <span>80%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">
+          </div>
+        </div>
+        <small>Pandas <span>70%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%">
+          </div>
+        </div>
+        <small>UX Design <span>70%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <small>Video Editing <span>85%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:85%">
+          </div>
+        </div>
+        <small>Public Speaking <span>80%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">
+          </div>
+        </div>
+        <small>Website Design (HTML+CSS3+BS4) <span>70%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%;">
+          </div>
+        </div>
+        <small>Tableau <span>80%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%;">
+          </div>
+          <div class="progress-bar bg-warning" style="width:40%;">Potential
+          </div>
+        </div>
+        <small>SQL <span>80%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:30%;">
+          </div>
+          <div class="progress-bar bg-warning" style="width:50%;">Potential
+          </div>
+        </div>
+        <small>JavaScript & D3 <span>70%</span></small>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:20%;">
+          </div>
+          <div class="progress-bar bg-warning" style="width:50%;">Potential
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
   </div>
 </section>
 </body>
+
+<footer>
+</footer>
