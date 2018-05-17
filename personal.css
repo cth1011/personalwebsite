@@ -19,6 +19,7 @@ font-family: "Open Sans";
 text-transform:uppercase;
 font-size: 16px;
 }
+/* =-=-=-=-=-=-= Introduction =-=-=-=-=-=-= */
 #intro {
 background: url("./assets/landing.jpg") no-repeat top center;
 height:987px;
@@ -54,7 +55,15 @@ background-size: cover;
   font-size: 30px;
   margin: 10% 20px;
 }
+/* =-=-=-=-=-=-= Footer =-=-=-=-=-=-= */
 
+footer {
+  padding: 50px;
+
+}
+
+
+/* =-=-=-=-=-=-= Mobile Device =-=-=-=-=-=-= */
 
 @keyframes drop {
     0%   { top:5px;  opacity: 0;}

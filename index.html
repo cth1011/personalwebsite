@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="./second.css">
 </head>
 
-<body>
+<body  data-spy="scroll" data-target="#myScrollspy" data-offset="0">
 
 <section class="text-center parallax-window" data-parallax="scroll" data-image-src="/assets/landing.jpg" id="intro">
   <div class="intro-caption">
@@ -60,22 +60,21 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#myNavbar">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<section >
+<section class="container fluid" id="second">
 
   <div class="container" id="aboutme">
     <h2 class="text-center" id="aboutme-text"><i class="fas fa-user-tie"></i>About Me</h2>
     <div class="row">
       <div class="col ">
         <h3>Who am I?</h3>
-        <p>I'm Christopher Herrera. I'm a freelance graphic designer and developer specializing in Photoshop, After Effects, Python and Premiere Pro. I'm the type of person, who loves to learn new things especially if it adds value to others. I'm a regular Toastmaster member at Maharlika Toastmasters Club giving talks about interesting books. Some of my strong skills are... </p>
+        <p>I'm Christopher Herrera. I'm a freelance graphic designer and developer specializing in Photoshop, After Effects, Python and Premiere Pro. I'm the type of person, who loves to learn new things especially if it adds value to others. I like cooking, exercising, reading, and attending Toastmasters meeting. Some of my strong skills are... </p>
 
         <div class="row">
           <ul>
@@ -183,5 +182,8 @@
 </section>
 </body>
 
-<footer>
+<footer class="container-fluid text-center">
+    <span class="copyright">
+      © 2018 Designed and Developed by Chris Herrera. All rights reserved.
+    </span>
 </footer>

@@ -1,5 +1,11 @@
+#second {
+  background: url("./assets/second.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 #aboutme {
   padding-bottom: 100px !important;
+
 }
 #aboutme-text {
   margin:5%;
